@@ -5,7 +5,7 @@
 #SBATCH --error=errors/ex_naist_cluster_%A_%a.err
 #SBATCH --array=1
 #SBATCH --time=4:00:00
-#SBATCH --partition=cluster_short
+#SBATCH --partition=hmem_short
 #SBATCH --ntasks=1
 #SBATCH --mem=16G
 #SBATCH --cpus-per-task=4
