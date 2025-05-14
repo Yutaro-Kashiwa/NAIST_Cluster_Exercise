@@ -13,4 +13,5 @@
 mkdir -p errors
 mkdir -p logs
 module load java
-bash ex1/main.sh $SLURM_ARRAY_TASK_ID
+bash ex1/main.sh
+#bash ex2/main.sh $SLURM_ARRAY_TASK_ID
